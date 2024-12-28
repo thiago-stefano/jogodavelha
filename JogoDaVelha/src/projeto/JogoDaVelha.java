@@ -11,7 +11,6 @@ public class JogoDaVelha {
 		Scanner scanner = new Scanner(System.in);
 		boolean continuar = true;
 
-		System.out.println("Bem Vindo ao Jogo da Velha!\nCriado por Thiago Stefano Garcia.\nRA: 22318463-5.");
 		System.out.println("O jogador deve escolher a linha e a coluna desejada:");
 		while (continuar) {
 			inicializarTabuleiro();
